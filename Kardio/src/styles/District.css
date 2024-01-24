@@ -1,0 +1,11 @@
+.district-container {
+  margin: 18px 0px;
+}
+.selected-district {
+  font-size: 18px;
+  font-weight: 700;
+}
+.district-list {
+  display: flex;
+  flex-direction: column;
+}

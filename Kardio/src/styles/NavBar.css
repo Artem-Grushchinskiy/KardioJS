@@ -1,0 +1,26 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navMenu {
+  display: flex;
+  background-color: #4caf50;
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.navMenu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navMenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
