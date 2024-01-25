@@ -10,7 +10,11 @@ const District = ({ districts }) => {
       <div className="selected-district">Выбери район: {selectedDistrict}</div>
       <ul className="district-list">
         {districts.map((district) => (
-          <li key={district} onClick={() => handleDistrictClick(district)}>
+          <li
+            className="district-goal"
+            key={district}
+            onClick={() => handleDistrictClick(district)}
+          >
             {district}
           </li>
         ))}
